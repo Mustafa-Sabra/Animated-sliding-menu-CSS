@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: consolas;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(6, 6, 26);
+}
+.nav {
+  border: 1px solid #000;
+  position: relative;
+}
+.nav .indicator {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 0;
+  background-color: rgb(168, 28, 70);
+  transition: 0.5s;
+  border-radius: 4px;
+  height: 4px;
+}
+.nav a {
+  font-size: 20px;
+  margin: 0px 20px;
+  text-decoration: none;
+  color: #fff;
+}
